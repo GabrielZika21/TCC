@@ -6,18 +6,19 @@
     max-width: 600px; /* Largura máxima do contêiner */
     margin: 0 auto; /* Centraliza o contêiner na página */
     padding: 20px; /* Espaçamento interno do contêiner */
-    background-color: #01111f;
+    background-color: #ececec00;
   }
 
+  
 /* Estilo para o grupo de formulário */
 .form-group {
     max-width: 400px; /* Largura máxima do grupo de formulário */
     margin: 0 auto; /* Centraliza o grupo de formulário na página */
     padding: 20px; /* Espaçamento interno do grupo de formulário */
-    border: 1px solid #ccc; /* Borda sólida com cor cinza */
+    border: 1px solid #ffffff00; /* Borda sólida com cor cinza */
     border-radius: 8px; /* Borda arredondada */
-    background-color:  #01111f;
-    color: black;
+    background-color:  #01111f00;
+    color: rgb(255, 251, 251);
     font-style: italic;
   }
   
@@ -28,7 +29,7 @@
     width: 100%; /* Largura total do campo de entrada */
     margin-bottom: 10px; /* Espaçamento inferior */
     padding: 10px; /* Espaçamento interno do campo */
-    border: 1px solid #ccc; /* Borda sólida com cor cinza */
+    border: 1px solid #cccccc00; /* Borda sólida com cor cinza */
     border-radius: 4px; /* Borda arredondada */
     
   }

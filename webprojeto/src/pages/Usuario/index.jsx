@@ -24,21 +24,30 @@ return(
            
   <div className="app-container">
       <div className="form-group">
-        <label>Nome</label>
+        <label>Nome:</label>
         <input type="text" placeholder="Seu Nome" onChange={(e)=>setNome(e.target.value)}/>
       </div>
       <div className="form-group">
-        <label>E-mail</label>
+        <label>E-mail:</label>
         <input type="email" placeholder="Seu Email" onChange={(e)=>setEmail(e.target.value)}/>
       </div>
       <div className="form-group">
-        <label>Senha</label>
+        <label>Senha:</label>
         <input type="password" placeholder="Sua Senha" onChange={(e)=>setSenha(e.target.value)}/>
+      </div>
+      <div className="form-group">
+        <label>CNPJ:</label>
+        <input type="text" placeholder="CNPJ" onChange={(e)=>setNome(e.target.value)}/>
+      </div>
+      <div className="form-group">
+        <label>Endereço:</label>
+        <input type="text" placeholder="Endereço" onChange={(e)=>setNome(e.target.value)}/>
       </div>
       <div className="form-group">
         <button onClick={handleSubmit}>Criar Conta</button>
       </div>
   </div>
+  
 )
 
 }
